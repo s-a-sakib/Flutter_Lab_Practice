@@ -36,17 +36,21 @@ class MyApp extends StatelessWidget {
           ),
           body: ListView(
             children: [
-              for (var i = 1; i < 10; i++) ...[
+              for (int i = 0; i < 10; i++)
                 Container(
-                  width: 400,
-                  height: 250,
-                  color: Color.fromARGB(i * 15, 15 * i, i * 10, 231),
+                  color: Color.fromRGBO(10 * i, 10 * i, 10 * i, 100),
+                  child: ListTile(
+                    title: const Text("Bonk Academy"),
+                    subtitle: const Text("Bonk Academy"),
+                    leading: const CircleAvatar(
+                      child: Icon(Icons.message),
+                    ),
+                    trailing: const Icon(Icons.camera_alt),
+                  ),
                 ),
-                const SizedBox(width: 20),
-              ],
             ],),
-        ),
       ),
+    ),
     );
   }
 }
