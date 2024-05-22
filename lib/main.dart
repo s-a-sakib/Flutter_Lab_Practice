@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 
 void main() {
-  runApp(const MyApp());
+  runApp(const BonkArmy());
 }
 
 class MyApp extends StatelessWidget {
@@ -51,6 +51,23 @@ class MyApp extends StatelessWidget {
             ],),
       ),
     ),
+    );
+  }
+}
+
+
+class BonkArmy extends StatelessWidget{
+  const BonkArmy({Key? key}) : super(key: key);
+
+  @override
+  Widget build(BuildContext context){
+    return MaterialApp(
+      debugShowCheckedModeBanner: false,
+      home: Scaffold(
+        body: Center(
+          child: Image.asset("build/images/bonk.png"),
+        ),  
+      ),
     );
   }
 }
