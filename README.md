@@ -14,3 +14,13 @@
 
  ## App Login Page View Created
 ![App Screenshot](https://i.ibb.co/31HCVPr/Screenshot-from-2024-05-22-22-51-25.png)
+
+ ## Flutter Card Design
+![App Screenshot](https://i.ibb.co/v13PdGb/Screenshot-from-2024-05-25-22-04-17.png)
+
+## Flutter Card GridView Ready
+![App Screenshot](https://i.ibb.co/Pww4L5j/Screenshot-from-2024-05-25-22-06-22.png)
+
+## Basic Practice Complete
+
+## Thank You
